@@ -1,0 +1,191 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  Grid
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
+
+body {
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.nav {
+  clear:both;
+  text-align: right;
+  background-color: rgb(167, 163, 126);
+  height: 76px;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+.nav p {
+  display: inline;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  margin-right: -4px;
+  transition: background-color 0.5s, color 0.5s;
+  -webkit-transition: background-color 0.5s, color 0.5s,
+}
+
+.nav p:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(167, 163, 126);
+}
+
+.logo {
+  float: left;
+  width: 500px;
+  height: 80px;
+  font-weight:100;
+  font-size: 50px;
+  padding-top: 40px;
+  text-transform: uppercase;
+}
+
+.logo a {
+  color: rgb(4, 99, 128);
+}
+
+.right-side {
+  text-align: right;
+  float:right;
+  width: 300px;
+  height: 80px;
+  color: rgb(4, 99, 128);
+  padding-top: 53px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav a {
+  color: rgb(255, 255, 255);
+}
+
+.wrapper-image {
+  background-image: url("img/Pers.png");
+  border-radius: 50%;
+  width: 184px;
+  height: 178px;
+  border-style: solid;
+  border-color: rgb(230, 226, 175);
+  border-width: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 2;
+
+}
+
+.section {
+  padding-top: 150px;
+}
+
+.about {
+  width: 400px;
+  height: 190px;
+  margin-top: -85px;
+  padding-top: 110px;
+  text-align: center;
+  font-size: 18px;
+  color: rgb(4, 99, 128);
+  border-style: solid;
+  border-color: rgb(230, 226, 175);
+  border-width: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+
+}
+
+.footer {
+  height: 80px;
+  background-color: rgb(167, 163, 126);
+  padding-top: 45px;
+  padding-left: 30px;
+}
